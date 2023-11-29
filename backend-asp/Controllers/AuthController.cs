@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-// TODO: Revert last commit
+// TODO: run "dotnet ef migrations add "initial-migration" && dotnet ef database update to create migrations for the auth module"
 namespace backend_asp.Controllers
 {
     [ApiController]

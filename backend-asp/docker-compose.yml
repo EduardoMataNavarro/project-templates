@@ -2,12 +2,12 @@ version: '3'
 services: 
   postgres: 
     image: 'postgres:latest'
-    container_name: 'pawtroller_pg'
+    container_name: '<containername>'
 
     environment:
-      POSTGRES_USER: 'default'
-      POSTGRES_PASSWORD: 'defaultpass'
-      POSTGRES_DB: 'pawtroller'
+      POSTGRES_USER: '<user>'
+      POSTGRES_PASSWORD: '<password>'
+      POSTGRES_DB: '<db_name>'
 
     ports: 
-      - '5432:5432'
+      - '<defaultport>:5432'
